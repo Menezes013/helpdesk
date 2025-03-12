@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping(path = "/usuarios")
-public class UsarioController {
+public class UsuarioController {
 
     @PostMapping
     public ResponseEntity create(){
